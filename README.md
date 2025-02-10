@@ -74,3 +74,22 @@ The below is a sample with the correct values you can use to confirm your calcul
 * ❌ Submit any form of app, such as web APIs, browser, desktop, or command-line applications.
 * ❌ Add unnecessary layers of abstraction.
 * ❌ Add unnecessary patterns/ architectural features that aren’t called for e.g. persistent storage.
+
+
+### UPDATES 
+
+* Run the script : npm run shopping-cart 
+   * index.js - main script
+   * I have included 5 items in the cart now, with 1 repetitive to show the product quantity count
+   * ### OUTPUT
+      * Returns a set of products in cart, along with the total quanity, subtotal amount, tax amount, and the final amount to checkout.
+
+* Used nodejs assert module for UNIT TESTING
+
+   * test.ts file contains 5 test cases
+   * run npm test
+   * 1. Checks if the total number of items in cart gets updated when a product is added.
+   * 2. Checks the Subtotal amount of items in cart is correct when quantity >1.
+   * 3. Checks if quantity of product increases when the same product is added again.
+   * 4. Checks for empty cart functionalities. 
+   * 5. Checks if the final amount gets rounded to proper 2 decimals.

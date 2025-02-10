@@ -4,10 +4,14 @@
   "description": "Shopping cart assignment for interviews",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve-products": "json-server --watch db.json --port 3001"
+    "test": "npx ts-node src/test.ts",
+    "serve-products": "json-server --watch db.json --port 3001",
+    "shopping-cart": "npx ts-node src/index.ts"
+
   },
   "devDependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.4",
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2"
   }
 }
