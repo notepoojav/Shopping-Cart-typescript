@@ -1,3 +1,30 @@
+### UPDATES 
+
+* Run the script : npm run shopping-cart
+* src folder consists of the scripts
+   * src/index.js - main script
+   * I have included 5 items in the cart now, with 1 repetitive to show the product quantity count.
+   * src/shopping-cart.js - functionalities
+        * include 3 functions:
+        * 1. To fetch the product price from Price API.
+          2. To add product/products to cart.
+          3. To checkout cart and receive final details.
+   * ### OUTPUT
+      * Returns a set of products in cart, along with the total quanity, subtotal amount, tax amount, and the final amount to checkout.
+
+* Used nodejs assert module for UNIT TESTING
+
+   * srcc/test.ts file contains 5 test cases
+   * run npm test
+   * 1. Checks if the total number of items in cart gets updated when a product is added.
+   * 2. Checks the Subtotal amount of items in cart is correct when quantity >1.
+   * 3. Checks if quantity of product increases when the same product is added again.
+   * 4. Checks for empty cart functionalities. 
+   * 5. Checks if the final amount gets rounded to proper 2 decimals.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## :warning: Please read these instructions carefully and entirely first
 * Clone this repository to your local machine.
 * Use your IDE of choice to complete the assignment.
